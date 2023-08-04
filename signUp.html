@@ -1,0 +1,210 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title> 
+    <style>
+        *
+        {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+
+
+            
+        }
+        body{
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .container
+        {
+           border: 1px solid black;
+
+           padding: 10px 20px;
+           align-items: center;
+           justify-content: center;
+           border-radius: 10px;
+           height: 680px;
+           width: 500px;
+
+         
+        
+        }
+      
+       
+        .box-four
+        {
+            
+           margin:20px 0px;
+           
+            
+        }
+        .box-four input{
+            height:48px ;
+            width: 100%;
+             background-color: rgb(237, 76, 167);
+             color: white;
+             font-size: 18px;
+             border-radius: 10px;
+             border: none;
+
+
+        }
+        .websiteLink
+        {
+           display: flex;
+           flex-direction: column;
+            gap: 24px;
+            width: 100%;
+        }
+.websiteLinkImg{
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    width: 100%;
+}
+.logText,.logBox{
+border: 1px solid black;
+padding: 10px 0px;
+}
+.logBox{
+    padding-left:50px;
+    width: 30%;
+}
+.logText{
+    width: 70%;
+    text-align:center;
+}
+  .countrySelect{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            width: 100%;
+            margin: 10px 0px;
+            background-color: lightgray;
+
+            border-radius: 10px;
+            padding: 5px 10px;
+         }
+         .phoneNumber{
+            display: flex;
+            background-color: lightgray;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            width: 100%;
+            margin: 10px 0px;
+            border-radius: 10px;
+            padding: 5px 10px;
+
+         }
+         .phoneNumber label,input{
+            padding: 3px;
+            border: none;
+            background-color: transparent;
+            outline: none;
+            text-align: center;
+
+         }
+         .countrySelect label,select{
+            padding: 3px;
+            border: none;
+            text-align: center;
+
+           background-color: transparent;
+
+         }
+      label{
+        font-weight: bold;
+      }
+        
+        
+         .MainLinksConnection{
+            font-size:15px;     
+            padding-left: 5px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+          }
+        
+          form h3{
+            display: block;
+            text-align: center;
+            width: 100%;
+            height: 55px;
+            line-height: 55px;
+            text-align: center;
+
+          }
+          form h2{
+            padding: 10px 0px;
+            text-align: center;
+          }
+
+         
+          
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+           <h3>Log in or sign up </h3>
+           <hr>
+             <h2>Welcome to Airbnb</h2>
+            <div class="countrySelect">
+                <label for="country/region">Country/region</label>
+                    <select name="country" id="country">
+                        <option value="sel">--Select The Country--</option>
+
+                        <option value="in">India (+91)</option>
+                        <option value="AF">Afghanistan (+93)</option>
+                        <option value="AX">Åland Islands (+358)</option>
+                        <option value="AL">Albania (+355)</option>
+                        <option value="DZ">Algeria (+213)</option>
+                        <option value="AS">American Samoa (+1)</option>
+                        <option value="AD">Andorra (+376)</option>
+                        <option value="AO">Angola (+244)</option>
+                        <option value="AQ">Antarctica (+672)</option>
+                        <option value="AG">Antigua and Barbuda (+1)</option> 
+                        <option value="ZW">Zimbabwe (+263)</option>
+                        <option value="XK">Kosovo (+383)</option>
+                        <option value="NT">Northern Cyprus (+90 392)</option>
+                        <option value="PS">State of Palestine (+970)</option>
+                      </select>
+                    </div> 
+ <div class="phoneNumber">
+                <label for="phone number">Phone Number </label>
+                <input type="text" placeholder="phone number">
+            </div>
+           
+              
+
+            <div class="MainLinksConnection">
+               <p> We'll call or text you to conform your number. Standard message and data rates apply.</p>
+               <a href="https://www.airbnb.co.in/help/article/2855">Privacy Policy</a>
+            
+            </div>
+            <div class="box-four">
+                <input type="button" value="Continue">
+            </div>
+        
+            <div class="websiteLink">
+                <div class="websiteLinkImg"><div class="logBox">1</div><div class="logText">Continue With Facebook</div></div>
+                <div  class="websiteLinkImg"><div class="logBox">1</div><div  class="logText">Continue with Google</div></div>
+                <div  class="websiteLinkImg"><div class="logBox">1</div><div  class="logText">Continue with Apple</div></div>
+                <div  class="websiteLinkImg"><div class="logBox">1</div><div  class="logText">Continue with email</div></div>
+            </div>
+            
+
+        </form>
+    </div>
+    
+</body>
+</html>
