@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./airbnbtab.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Log In / Sign Up - Airbnb</title>
     <style>
         *{
             box-sizing: border-box;
@@ -12,13 +13,17 @@
             list-style: none;
         }
        
-          
+        #theLogo{
+            border: 1px solid blue;
+            width: 200px;
+            height: 55px;
+        }
         #mainContainer{
             width: 100%;
             max-width: 1440px;
             border: 1px solid red;
             height: 80px;
-            line-height: 55px;
+            line-height: 32px;
         }
         
         #contactNavbar{
@@ -90,13 +95,30 @@
         .copyWriteBox{
             border: 1px solid red;
             width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content:start;
           
+        }
+        .miniLinks{
+            border: 1px solid blue;
+            padding: 5px;
+
         }
         .copyWriteBox a{
 
             border: 1px solid red;
+            padding: 5px;
+        }
+        .footerIconContainer{
+            display: flex;
+            width: 100%;
+            justify-content:end;
+            border: 1px solid violet;
         }
         .footerContainerOne {
+           
+            border: 1px solid black;
 
 
         }
@@ -120,13 +142,13 @@
     <div id="CotactContainer">
     <nav id="contactNavbar">
         <div id="logoContainer">
-            <div id="theLogo"></div>
+            <div id="theLogo"><img src="./Airbnb-logo.png" alt="airbnblogo" width="100%" height="100%"></div>
         </div>
         <div id="containedContainer">
             <div id="innercontainedContainer">
             <a href="">Airbnb your home</a>
             <button>earth</button>
-            <button></button>
+            <span><a href="#">line</a> <a href="#">profile</a></span>
             </div>
 
         </div>
@@ -187,15 +209,17 @@
 <div id="copywriteContainer">
     <div id="copywriteInnerContainer">
     <div class="copyWriteBox">
+        <div class="miniLinks">
         <a href="#">2023 Airbnb,Inc.</a>
         <a href="#">Privacy</a>
         <a href="#">Terms</a>
         <a href="#">Sitemap</a>
         <a href="#">Company details</a>
     </div>
+    </div>
     <div class="copyWriteBox">
         <div class="footerIconContainer">
-            <div class="footerContainerOne"></div>
+            <div class="footerContainerOne">wreereewrew</div>
             <div class="footerContainerOne">
                 <ul>
                     <li>facebook</li>
