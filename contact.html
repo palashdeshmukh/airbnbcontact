@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+       
+          
+        #mainContainer{
+            width: 100%;
+            max-width: 1440px;
+            border: 1px solid red;
+            height: 80px;
+            line-height: 55px;
+        }
+        
+        #contactNavbar{
+            display: flex;
+            flex-direction:row;
+            flex-wrap: nowrap;
+            padding: 10px;
+           border: 1px solid black;
+
+        }
+        #logoContainer,#containedContainer{
+            width: 50%;
+                        border: 1px solid black;
+
+        }
+        #containedContainer{
+            display: flex;
+            justify-content: end;
+            flex-wrap: nowrap;
+            flex-direction: row;
+                        border: 1px solid black;
+
+        }
+        table{
+            border: 1px solid black;
+            width: 100%;
+
+
+        }
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        th,td{
+            height: 30px;
+            padding-left: 10px;
+        }
+        #contactFooter{
+            border: 1px solid black;
+            width: 100%;
+            max-width: 1440px;
+        }
+        footer{
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+
+        }
+        #tableContainer{
+            max-width: 1440px;
+        }
+        #copywriteContainer{
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            height: 50px;
+            width: 100%;
+        }
+        #copywriteInnerContainer{
+            height: 50px;
+            width: 100%;
+            display: flex;
+            max-width: 1440px;
+            flex-wrap: nowrap;
+        }
+        .copyWriteBox{
+            border: 1px solid red;
+            width: 50%;
+          
+        }
+        .copyWriteBox a{
+
+            border: 1px solid red;
+        }
+        .footerContainerOne {
+
+
+        }
+        .footerContainerOne ul{
+            display: flex;
+            flex-wrap: nowrap;
+            border: 1px solid red;
+            height: 100%;
+
+        }
+        .footerContainerOne ul li{
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <hr>
+    <footer>
+    <div id="mainContainer">
+    <div id="CotactContainer">
+    <nav id="contactNavbar">
+        <div id="logoContainer">
+            <div id="theLogo"></div>
+        </div>
+        <div id="containedContainer">
+            <div id="innercontainedContainer">
+            <a href="">Airbnb your home</a>
+            <button>earth</button>
+            <button></button>
+            </div>
+
+        </div>
+    </nav>
+    </div>
+    </div>
+   
+    <div id="contactFooter">
+        <div id="tableContainer">
+        <table>
+            <thead>
+                <tr>
+                    <th>Support</th>
+                    <th>Community</th>
+                    <th>Hosting</th>
+                    <th>Airbnb</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Help Centre</td>
+                    <td>Airbnb.org:disaster relief housing</td>
+                    <td>Airbnb your home</td>
+                    <td>Newsroom</td>
+                </tr>
+                <tr>
+                <td>AirCover</td>
+                <td>Combating discrimination</td>
+                <td>AirCover for Hosts</td>
+                <td>Learn about new features</td>
+                </tr>
+                <tr>
+                    <td>Supporting people with disablities</td>
+                    <td></td>
+                    <td>Explore hosting resources</td>
+                    <td>Letter from our founders</td>
+                </tr>
+                <tr>
+                    <td>Cancellation options</td>
+                    <td></td>
+                    <td>Visit our community forum</td>
+                    <td>Careers</td>
+                </tr>
+                <tr>
+                    <td>Our COVID-19 Response</td>
+                    <td></td>
+                    <td>How to host responsibly</td>
+                    <td>investors</td>
+                </tr>
+                <tr>
+                    <td>Report a neighbourhood concern</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+
+<div id="copywriteContainer">
+    <div id="copywriteInnerContainer">
+    <div class="copyWriteBox">
+        <a href="#">2023 Airbnb,Inc.</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Sitemap</a>
+        <a href="#">Company details</a>
+    </div>
+    <div class="copyWriteBox">
+        <div class="footerIconContainer">
+            <div class="footerContainerOne"></div>
+            <div class="footerContainerOne">
+                <ul>
+                    <li>facebook</li>
+                    <li>twitter</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+</footer>
+
+    
+</body>
+</html>
